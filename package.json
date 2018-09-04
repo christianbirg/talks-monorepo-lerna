@@ -1,0 +1,11 @@
+{
+  "version": "0.0.0",
+  "private": true,
+  "repository": "github:dnepro/talks-monorepo-lerna",
+  "author": "Roman Minchyn <hello@roman-minchyn.de> (https://roman-minchyn.de)",
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://github.com/dnepro/talks-monorepo-lerna#readme",
+  "bugs": {
+    "url": "https://github.com/dnepro/talks-monorepo-lerna/issues"
+  }
+}
