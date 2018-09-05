@@ -1,4 +1,5 @@
 {
+  "name": "lerna-monorepo-demo",
   "version": "0.0.0",
   "private": true,
   "repository": "github:dnepro/talks-monorepo-lerna",
@@ -24,12 +25,5 @@
     "eslint-plugin-react": "7.7.0",
     "eslint-plugin-standard": "3.0.1",
     "lerna": "^3.2.1"
-  },
-  "name": "demo",
-  "standard": {
-    "plugins": [
-      "flowtype"
-    ],
-    "parser": "babel-eslint"
   }
 }
