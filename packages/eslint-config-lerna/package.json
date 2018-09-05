@@ -1,6 +1,7 @@
 {
   "name": "@dnepro/eslint-config-talks-monorepo-lerna",
   "version": "0.0.0",
+  "private": true,
   "description": "Eslint config used for the \"Monorepo - Lerna\" tech talk",
   "author": "Roman Minchyn <hello@roman-minchyn.de> (https://roman-minchyn.de)",
   "license": "SEE LICENSE IN LICENSE",
