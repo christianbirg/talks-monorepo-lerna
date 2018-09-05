@@ -1,6 +1,6 @@
 {
   "name": "@dnepro/babel-preset-talks-monorepo-lerna",
-  "version": "0.0.0",
+  "version": "0.0.1-alpha.0",
   "private": true,
   "description": "Babel preset used for talks-monorepo-lerna",
   "author": "Roman Minchyn <hello@roman-minchyn.de> (https://roman-minchyn.de)",
