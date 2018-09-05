@@ -1,0 +1,10 @@
+module.exports = {
+  "classPrefix": "mdrnzr-",
+  "enableClasses": true,
+  "options": [
+    "setClasses"
+  ],
+  "feature-detects": [
+    "storage/localstorage"
+  ]
+}

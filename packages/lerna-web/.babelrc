@@ -1,0 +1,10 @@
+{
+  "presets": [
+    "@dnepro/babel-preset-talks-monorepo-lerna",
+    "react",
+    "flow"
+  ],
+  "plugins": [
+    "babel-plugin-styled-components"
+  ]
+}

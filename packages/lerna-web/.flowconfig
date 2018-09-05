@@ -1,0 +1,25 @@
+[ignore]
+*/build/.*
+.*/bin/.*
+.*/node_modules/electron-packager/.*
+
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+module.name_mapper='.*\(.graphql\)' -> 'empty/object'
+
+module.name_mapper='^config$' ->'<PROJECT_ROOT>/config/environments/_example.js',
+module.name_mapper='^@shared$' ->'<PROJECT_ROOT>/src/app/Shared',
+module.name_mapper='^@utils' ->'<PROJECT_ROOT>/src/app/Shared/utils'
+module.name_mapper='^@forms' ->'<PROJECT_ROOT>/src/app/Shared/forms'
+module.name_mapper='^@services' ->'<PROJECT_ROOT>/src/app/Shared/services'
+module.name_mapper='^@adapters' ->'<PROJECT_ROOT>/src/app/Shared/adapters'
+module.name_mapper='^@components' ->'<PROJECT_ROOT>/src/app/Shared/components'
+module.name_mapper='^@security' ->'<PROJECT_ROOT>/src/app/Shared/security'
+module.name_mapper='^@theme' ->'<PROJECT_ROOT>/src/app/Shared/theme'
+
+[strict]

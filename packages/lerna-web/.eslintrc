@@ -1,0 +1,16 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["./node_modules/@dnepro/eslint-config-talks-monorepo-lerna/index.js"],
+  "plugins": [
+    "flowtype",
+    "jest",
+    "react",
+    "import",
+    "node",
+    "promise",
+    "standard"
+  ],
+  "rules": {
+    "flowtype/define-flow-type": 1
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "eslint.enable": true,
+  "typescript.validate.enable": false
+}

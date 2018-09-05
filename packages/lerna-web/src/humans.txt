@@ -1,0 +1,9 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+/* TEAM */
+  Developer: Roman Minchyn
+  Contact: hello@roman-minchyn.de
+  Twitter: @Dnepro
+  GitHub: dnepro
+  From: Hannover, Lower Saxony, Germany

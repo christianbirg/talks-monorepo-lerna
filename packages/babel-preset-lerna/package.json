@@ -1,0 +1,25 @@
+{
+  "name": "@dnepro/babel-preset-talks-monorepo-lerna",
+  "version": "0.0.0",
+  "description": "Babel preset used for talks-monorepo-lerna",
+  "author": "Roman Minchyn <hello@roman-minchyn.de> (https://roman-minchyn.de)",
+  "license": "SEE LICENSE IN LICENSE",
+  "main": "index.js",
+  "repository": "github:dnepro/talks-monorepo-lerna",
+  "homepage": "https://github.com/dnepro/talks-monorepo-lerna#readme",
+  "keywords": [
+    "babel",
+    "preset",
+    "techtalk",
+    "monorepo",
+    "lerna",
+    "talks-monorepo-lerna"
+  ],
+  "dependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-3": "^6.24.1"
+  }
+}

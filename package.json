@@ -7,5 +7,29 @@
   "homepage": "https://github.com/dnepro/talks-monorepo-lerna#readme",
   "bugs": {
     "url": "https://github.com/dnepro/talks-monorepo-lerna/issues"
+  },
+  "scripts": {
+    "lerna": "lerna"
+  },
+  "devDependencies": {
+    "eslint": "4.18.1",
+    "eslint-config-standard": "11.0.0",
+    "eslint-config-standard-jsx": "5.0.0",
+    "eslint-config-standard-react": "6.0.0",
+    "eslint-plugin-flowtype": "2.46.1",
+    "eslint-plugin-import": "2.9.0",
+    "eslint-plugin-jest": "21.13.0",
+    "eslint-plugin-node": "6.0.1",
+    "eslint-plugin-promise": "3.6.0",
+    "eslint-plugin-react": "7.7.0",
+    "eslint-plugin-standard": "3.0.1",
+    "lerna": "^3.2.1"
+  },
+  "name": "demo",
+  "standard": {
+    "plugins": [
+      "flowtype"
+    ],
+    "parser": "babel-eslint"
   }
 }
